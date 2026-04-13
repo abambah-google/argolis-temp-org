@@ -1,0 +1,16 @@
+baselineValues:
+  caOptions:
+    isCa: true
+  keyUsage:
+    baseKeyUsage:
+      digitalSignature: true
+      keyEncipherment: true
+      keyAgreement: true
+    extendedKeyUsage:
+      serverAuth: true
+      clientAuth: true
+identityConstraints:
+  celExpression:
+    expression: 'true'
+  allowSubjectPassthrough: true
+  allowSubjectAltNamesPassthrough: true

@@ -1,0 +1,7 @@
+name: "projects/ts-prot-npp-ai-sec-prd/locations/global/serverTlsPolicies/cirrus-mtls-cas"
+mtlsPolicy:
+  clientValidationCa:
+  - grpcEndpoint:
+      targetUri: "privateca.googleapis.com"
+    certificateProviderInstance:
+      pluginInstance: "google_cloud_private_ca"

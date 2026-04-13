@@ -1,0 +1,22 @@
+baselineValues:
+  caOptions:
+    isCa: true
+  keyUsage:
+    baseKeyUsage:
+      digitalSignature: true
+      contentCommitment: true
+      keyEncipherment: true
+      dataEncipherment: true
+      keyAgreement: true
+      certSign: true
+      crlSign: true
+    extendedKeyUsage:
+      serverAuth: true
+      clientAuth: true
+      timeStamping: true
+      ocspSigning: true
+identityConstraints:
+  celExpression:
+    expression: 'true'
+  allowSubjectPassthrough: true
+  allowSubjectAltNamesPassthrough: true

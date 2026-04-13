@@ -1,0 +1,11 @@
+trustStores:
+- trustAnchors:
+  - pemCertificate: |
+      -----BEGIN CERTIFICATE-----
+      ...
+      -----END CERTIFICATE-----
+  intermediateCas:
+  - pemCertificate: |
+      -----BEGIN CERTIFICATE-----
+      ...
+      -----END CERTIFICATE-----

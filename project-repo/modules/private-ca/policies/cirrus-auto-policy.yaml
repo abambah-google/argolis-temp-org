@@ -1,0 +1,37 @@
+baselineValues:
+  caOptions:
+    isCa: true
+  keyUsage:
+    baseKeyUsage:
+      digitalSignature: true
+      contentCommitment: true
+      keyEncipherment: false
+      dataEncipherment: false
+      keyAgreement: false
+      certSign: true
+      crlSign: true
+      encipherOnly: false
+      decipherOnly: false
+    extendedKeyUsage:
+      serverAuth: false
+      clientAuth: false
+      codeSigning: false
+      emailProtection: false
+      timeStamping: false
+      ocspSigning: false
+  policyIds:
+  - objectIdentifierPath:
+    - 1
+    - 3
+    - 6
+    - 1
+    - 4
+    - 1
+    - 41482
+    - 1
+    - 2
+identityConstraints:
+  celExpression:
+    expression: 'true'
+  allowSubjectPassthrough: true
+  allowSubjectAltNamesPassthrough: true

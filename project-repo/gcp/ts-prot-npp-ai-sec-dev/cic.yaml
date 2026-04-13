@@ -1,0 +1,6 @@
+# cic.yaml specifies: CA pool, key algorithm (ECDSA_P256), lifetime (7 days), rotation (50%)
+# TODO: User must populate this file completely.
+caPool: projects/ts-prot-npp-ai-sec-dev/locations/us-central1/caPools/cirrus-workload-uc
+keyAlgorithm: ECDSA_P256
+lifetime: 604800s 
+rotationWindowPercentage: 50
